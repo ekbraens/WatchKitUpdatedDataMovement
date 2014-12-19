@@ -17,19 +17,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"WatchKitSaysHello" object:self];
+
     return YES;
 }
 
 -(void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply
 {
-    ViewController * vc = [[ViewController alloc] init];
-    vc.delegate = self;
-    [vc rollD4];
-    
+    // this probably wont run in terminal because target is watchkit
     NSLog(@"Recieved INFO from WATCH");
-        
+    
+    // to the notification center inside of viewcontroller
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"WatchKitSaysHello" object:self];
+    
     if ([userInfo objectForKey:@"four"])
     {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"WatchKitSaysHello" object:self];
         NSLog(@"Recieved INFO from WATCH");
     }
 }

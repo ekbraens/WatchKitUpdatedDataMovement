@@ -21,9 +21,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gonzo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Huc-oc-Yx2">
                                 <rect key="frame" x="94" y="180" width="380" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="380" id="EWj-ai-BAn"/>
-                                    <constraint firstAttribute="width" secondItem="Huc-oc-Yx2" secondAttribute="height" multiplier="380:21" id="N8r-q8-njR"/>
-                                    <constraint firstAttribute="height" constant="21" id="kRD-nM-d8r"/>
+                                    <constraint firstAttribute="height" constant="21" id="8zR-ZB-XLZ"/>
+                                    <constraint firstAttribute="width" secondItem="Huc-oc-Yx2" secondAttribute="height" multiplier="380:21" id="QrU-jc-VLe"/>
+                                    <constraint firstAttribute="width" constant="380" id="fSS-hb-Kb9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,10 +32,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Huc-oc-Yx2" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="160" id="63Q-ih-9LJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Huc-oc-Yx2" secondAttribute="trailing" constant="110" id="DwI-UZ-KXQ"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Huc-oc-Yx2" secondAttribute="bottom" constant="399" id="uaE-ac-B9d"/>
-                            <constraint firstItem="Huc-oc-Yx2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="78" id="z8G-Pj-WEK"/>
+                            <constraint firstItem="Huc-oc-Yx2" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="160" id="Aa7-Nr-kXI"/>
+                            <constraint firstItem="Huc-oc-Yx2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="78" id="YiW-SS-Qh9"/>
                         </constraints>
                     </view>
                     <connections>

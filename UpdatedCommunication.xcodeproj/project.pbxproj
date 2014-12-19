@@ -20,6 +20,7 @@
 		D5540E3E1A425C0E008CB581 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5540E3D1A425C0E008CB581 /* Interface.storyboard */; };
 		D5540E401A425C0E008CB581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5540E3F1A425C0E008CB581 /* Images.xcassets */; };
 		D5540E431A425C0E008CB581 /* UpdatedCommunication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5540E2B1A425C0E008CB581 /* UpdatedCommunication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5F250401A43EBE200FDC71B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2503F1A43EBE200FDC71B /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		D5540E3C1A425C0E008CB581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5540E3D1A425C0E008CB581 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		D5540E3F1A425C0E008CB581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5F2503E1A43EBE200FDC71B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D5F2503F1A43EBE200FDC71B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				D5540E061A425BD5008CB581 /* AppDelegate.m */,
 				D5540E081A425BD5008CB581 /* ViewController.h */,
 				D5540E091A425BD5008CB581 /* ViewController.m */,
+				D5F2503E1A43EBE200FDC71B /* TestViewController.h */,
+				D5F2503F1A43EBE200FDC71B /* TestViewController.m */,
 				D5540E0B1A425BD5008CB581 /* Main.storyboard */,
 				D5540E0E1A425BD5008CB581 /* Images.xcassets */,
 				D5540E101A425BD5008CB581 /* LaunchScreen.xib */,
@@ -373,6 +378,7 @@
 			files = (
 				D5540E0A1A425BD5008CB581 /* ViewController.m in Sources */,
 				D5540E071A425BD5008CB581 /* AppDelegate.m in Sources */,
+				D5F250401A43EBE200FDC71B /* TestViewController.m in Sources */,
 				D5540E041A425BD5008CB581 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +644,7 @@
 				D5540E231A425BD5008CB581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5540E241A425BD5008CB581 /* Build configuration list for PBXNativeTarget "UpdatedCommunicationTests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +653,7 @@
 				D5540E261A425BD5008CB581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5540E441A425C0E008CB581 /* Build configuration list for PBXNativeTarget "UpdatedCommunication WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +662,7 @@
 				D5540E461A425C0E008CB581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5540E471A425C0E008CB581 /* Build configuration list for PBXNativeTarget "UpdatedCommunication WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +671,7 @@
 				D5540E491A425C0E008CB581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

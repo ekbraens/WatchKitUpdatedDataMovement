@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -18,8 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view, typically from a nib.
+    
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleWatchKitNotification:)
+//                                                 name:@"WatchKitSaysHello" object:nil];
+    
+    // proves that my notification center is working
+    //TestViewController * test = [[TestViewController alloc] init];
+}
+
+-(void)handleWatchKitNotification:(NSNotification *) notification
+{
+    if ([[notification name] isEqualToString:@"WatchKitSaysHello"])
+    {
+        [self rollD4];
+    }
 }
 
 -(void)rollD4
