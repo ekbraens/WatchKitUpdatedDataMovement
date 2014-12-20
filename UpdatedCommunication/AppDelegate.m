@@ -5,6 +5,9 @@
 //  Created by New on 12/17/14.
 //  Copyright (c) 2014 Braen. All rights reserved.
 //
+// looks like i might need to use mmwormhole for data movement
+// seeing as i cant figure it out otherwise
+// did a lot of javascript today
 
 #import "AppDelegate.h"
 
